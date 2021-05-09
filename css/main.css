@@ -1,0 +1,718 @@
+/*/////////////////////////// Section1 :: Main Slide ///////////////////////////*/
+.main-visual-wrap {
+  width: 100%;
+  height: 808px;
+  padding: 0 80px;
+  box-sizing: border-box;
+  margin-top: 120px;
+}
+.main-visual { width: 100%; height: 100%; }
+
+/* main slide */
+.main-slide-wrap {
+  width: 66%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  float: left;
+} 
+.main-slide { width: 100%; height: 100%; }
+.main-slide>ul>li>a>img{ width: 100%; height: 100%; } 
+.cbp-bislideshow li {
+	position: absolute;
+	width: 101%;
+	height: 101%;
+	top: -0.5%;
+	left: -0.5%;
+	opacity: 0;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	transition: opacity 1s;
+}
+.backgroundsize .cbp-bislideshow li {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.backgroundsize .cbp-bislideshow li img {
+	display: none;
+}
+.cbp-bislideshow>li>a {
+  width: 100%; height: 100%; display: block;
+}
+.cbp-bislideshow li img {
+	display: block;
+  width: 100%;
+  z-index: 9999;
+}
+.cbp-bicontrols {
+	position: relative;
+	height: auto; width: 100%;
+	background-color: gold;
+	margin: -50px 0 0 0;  
+	top: 57%;	
+}
+.cbp-biprev {
+	border-left: 1px solid rgba(255,255,255,0.8);
+	border-bottom: 1px solid rgba(255,255,255,0.8);
+	outline: none;
+	width: 56px;
+	height: 56px;
+	position: relative;
+	cursor: pointer;
+	position: absolute; top: 0; left: 40px;
+	transform: translateY(-50%) rotate(45deg);
+}
+.cbp-binext {
+	border-left: 1px solid rgba(255,255,255,0.8);
+	border-bottom: 1px solid rgba(255,255,255,0.8);
+	outline: none;
+	width: 56px;
+	height: 56px;
+	position: relative;
+	cursor: pointer;
+	position: absolute; top: 0; right: 40px;
+	transform: translateY(-50%) rotate(225deg);
+}
+
+/* main visual SUB */
+.main-visual-sub {
+  width: 33%;
+  height: 808px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+  float: right;
+}
+.main-visual-sublist {
+  width: 100%;
+  height: calc(33.33% - (20px/3));
+  position: relative;
+  overflow: hidden;
+}
+.main-visual-sublist-title{
+  position: absolute;
+  top: 30px; left: 30px;
+  color: #FFF;
+  font-size: 21px;
+  font-weight: 600;
+  z-index: 5;
+}
+.main-visual-sublist>a>img{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*/////////////////////////// Section1 :: Main Slide ///////////////////////////*/
+
+
+/*/////////////////////////// Section2 :: Hot Cube ///////////////////////////*/
+.hot-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 90px 0 90px;
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+}
+.hot-title {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.hot-title>h2{
+  font-size: 28px;
+  color: #333333;
+  font-weight: 900;
+}
+.hot-title>p{
+  font-size: 18px;
+  color: #999;
+  margin-top: 8px;
+}
+.hot-more-btn{
+  font-size: 16px;
+  color: #333;
+  position: absolute;
+  right: 0;
+  top: 134px;
+}
+.hot-content{
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hot-content>a{
+  width: calc((100% - 32px) / 3);
+  min-height: 450px;
+}
+.hot { width:100%; }
+.hot-img {
+  position: relative;
+  min-width: 400px;
+  height: 340px;
+  background-color: #fafafa;
+}
+.hot-img>img{
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h-title{
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+  margin: 20px 0 8px 0;
+}
+.h-price-pre{
+  font-size: 18px;
+  color: #ccc;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+.h-price{
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+.h-price span{
+  font-size: 18px;
+  color: #fc454c;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.h-content{
+  margin-top: 8px;
+  color: #999;
+  font-size: 15px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.hot-after {
+  width: 100%;
+  height: 20px;
+  background-color: #f5f5f5;
+}
+/*///////////////////// Section2 :: Hot Cube ////////////////////////*/
+
+
+/*///////////////////// Section3 :: Event ////////////////////////*/
+.event-wrap {
+  width: 100%;
+  max-width: 1280px;
+  padding: 90px 0 90px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+.event-title{
+  width: 100%;
+  height: 36px;
+}
+.event-title>h2 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #333333;
+}
+.event-more-btn{
+  font-size: 16px;
+  color: #333;
+  position: absolute;
+  right: 0;
+  top: 104px;
+}
+
+.event-content {
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.event-content::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 420px;
+  background: #ddd;
+  top: 0;
+  right: 50%;
+}
+.event-content>a{ min-width: 600px; }
+.event { width: 100%; }
+.event-img{
+  min-width: 600px;
+  height: 420px;
+  position: relative;
+  overflow: hidden;
+}
+.event-img>img{
+  width: 100%;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.event>ul{ margin-top: 25px; }
+.e-title {
+  font-size: 22px;
+  color: #333333;
+  margin-bottom: 8px;
+  font-weight: 900;
+}
+.e-content{ font-size: 18px; color: #999999; }
+
+/*///////////////// Section3 :: Event /////////////////////*/
+
+
+/*///////////// Section4 :: Slick Slider ////////////////*/
+.main-banner-wrap {
+  width: 100%;
+  height: 300px;
+  background-color: #fdf6f0;
+}
+.main-banner {
+  max-width: 627px;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 65px;
+  box-sizing: border-box;
+  position: relative;
+}
+.main-banner::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 90px;
+  background: #f4c8bf;
+  top: 100px;
+  left: 0;
+}
+
+.banner-slick-list{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  margin-left: 40px;
+  cursor:grab;
+}
+
+.main-banner-text {
+  position: absolute;
+  right: 0; top: 130px;
+  width: 386px;
+  height: 110px;
+  background: url("https://www.cubeme.co.kr/images/main/main-banner-txt.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.banner-slick-list>ul {
+  width: 280px;
+  position: absolute;
+  top: 0;
+  left: 265px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.banner-slick-list button {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid #ffc4bc;
+  background-color: #fdf6f0;
+  color: #ffc4bc;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+.banner-slick-list ul button:focus {
+	width:40px;
+	height:40px;
+	background-color:#ffc4bc;
+  color: #FFFFFF;
+	display:inline;
+	margin:0px;
+	padding:0px;
+	outline:none;
+}
+
+.banner-slick-list li {
+	display:inline;
+	padding:5px;	
+}
+body > div.banner-slick-list.slick-initialized.slick-slider > ul {
+	list-style-type:none;
+	background-color:none;
+	float:left;
+	display:inline;
+}
+body > div.banner-slick-list.slick-initialized.slick-slider > ul {
+	position:absolute;
+	top:140px;
+	left:215px;	
+}
+.slick-prev, .slick-next{
+  display: none !important;
+}
+li.slick-active button {
+	background-color: #ffc4bc;
+  color: #FFFFFF;
+}
+
+/*///////////// Section4 :: Slick Slider ////////////////*/
+
+
+/*///////////// Section5 :: Campaign(이 상품 어때요?) ////////////////*/
+.campaign-wrap{
+  width: 100%;
+  max-width: 1280px;
+  padding: 90px 0 90px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.campaign-title { width: 100%; height: auto; }
+.campaign-title>h3{
+  font-size: 28px;
+  color: #333;
+  font-weight: 700;
+}
+.campaign-title>p{
+  font-size: 18px;
+  color: #999;
+  margin-top: 8px;
+}
+
+.campaign-box-wrap {
+  width: 100%;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.campaign-box-wrap>a {
+  width: 19% !important;
+  min-height: 416px;
+  margin-right: 10px;
+}
+ 
+.campaign-box{ width: 100%; }
+.campaign-img{
+  width: 100%;
+  /* height: 250px; */
+  background-color: #fafafa;
+  position: relative;
+}
+.campaign-img>img{ width: 100%; } 
+
+.campaign-content{ margin-top: 20px; text-align: left; }
+.campaign-content01{
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.campaign-content02{
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+.campaign-content03{
+  font-size: 18px; 
+  color: #333;
+  font-weight: 600;
+}
+.campaign-content03>span{
+  display: inline-block;
+  font-size: 18px;
+  color: #FC454C;
+  font-weight: 500;
+  margin-right: 4px;
+}
+.campaign-content04{
+  font-size: 15px;
+  color: #999;
+  line-height: 1.5;
+  margin: 8px 0 12px 0;
+} 
+
+.campaign-after {
+  width: 100%;
+  height: 20px;
+  background-color: #f5f5f5;
+}
+/*///////////// Section5 :: Campaign(이 상품 어때요?) ////////////////*/
+
+
+/*///////////////////// Section6 :: Magazine ////////////////////////*/
+.magazine-wrap {
+  width: 100%;
+  max-width: 1280px;
+  padding: 90px 0 90px;
+  margin: 0 auto 20px auto;
+  box-sizing: border-box;
+  position: relative;
+}
+.magazine-title { width: 100%; position: relative; }
+.magazine-title>h3{
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+.magazine-title>h3::after {
+  content: "";
+  display: inline-block;
+  width: 8px; height: 8px;
+  background-color: #FC454C;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.magazine-title>p {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #999;
+}
+.magazine-more-btn{
+  font-size: 16px;
+  color: #333;
+  position: absolute;
+  right: 0;
+  top: 134px;
+}
+
+.magazine-box-wrap {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.magazine-box-wrap>a{ width: calc(33.33% - 24px); }
+.magazine-box { width: 100%; box-sizing: border-box; }
+.magazine-img {  width:100%; height: auto; position:relative; overflow: hidden; } 
+.magazine-img>img { width: 100%; }
+.magazine-content { margin-top: 26px; }
+.magazine-content01 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333;
+}
+.magazine-content02{
+  color: #999;
+  font-size: 14px;
+  margin-top: 18px;
+  line-height: 1.6;
+}
+.magazine-content03{
+  font-size: 16px;
+  color: #999;
+  margin-top: 42px;
+  font-weight: 500;
+}
+
+/*///////////////////// Section6 :: Magazine ////////////////////////*/
+
+
+
+
+
+/* //////////////////// Media Query ///////////////////// */
+@media all and (max-width: 1440px) {
+  .main-visual-wrap, .main-visual-sub {
+    height: 600px;
+    max-height: 600px;
+  }
+}
+
+
+@media all and (max-width: 1280px) {
+  .main-visual-wrap, .main-visual-sub {
+    height: 480px;
+    max-height: 480px;
+  }
+  .main-visual-sublist-title{
+    top: 24px;
+    left: 24px;
+    font-size: 16px;
+  }
+
+  .hot-wrap { padding: 80px 80px; }
+  .hot-title>h2{ font-size: 24px; }
+  .hot-content{ margin-top: 28px; }
+  .hot-img { min-width: 350px; height: 260px; }
+  .h-price-pre{ font-size: 14px; }
+  .h-content{ font-size: 13px; }
+  .hot-more-btn{ right: 80px; }
+
+  .event-wrap { padding: 80px 80px; }
+  .event-title>h2 { font-size: 24px; }
+  .event-more-btn { right: 80px; top: 95px; }
+  .event-content { margin-top: 28px; }
+  .event-content::after { height: 280px; }
+  .event-content>a{ min-width: 48%; }
+  .event-img{ min-width: 100%; height: 280px; }
+  .event-img>img{
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    max-width: inherit;
+  }
+  .e-title { font-size: 20px; }
+  .e-content{ font-size: 16px; }
+
+  .main-banner-wrap { height: 200px; }
+  .main-banner { padding-top: 30px; transform: scale(0.8); }
+  .main-banner-text{ top: 100px; transform: scale(0.8); }
+  .main-banner::before{ top: 70px; }
+
+  .campaign-wrap { padding: 80px 80px; }
+  .campaign-title>h3{ font-size: 24px; }
+  .campaign-box-wrap{ margin-top: 28px; }
+  /* .campaign-img{ height: 150px; } */
+  .campaign-content{ margin-top: 12px; }
+  .campaign-content02{ font-size: 14px; }
+  .campaign-content04{ font-size: 14px; }
+
+  .magazine-wrap { padding: 80px 80px; }
+  .magazine-content01{ font-size: 18px; }
+  .magazine-content03 { margin-top: 36px;}
+}
+
+
+@media all and (max-width: 1024px) {
+  .main-visual-wrap { padding: 0; margin-top: 70px; }
+
+  .cbp-biprev,.cbp-binext { width: 40px; height: 40px; } /* mainslide btn */
+
+
+  .hot-wrap { padding: 40px 24px; }
+  .hot-more-btn{ right: 24px; top: 80px; }
+
+  .event-wrap { padding: 40px 24px; }
+  .event-img{ height: 160px; }
+  .event-more-btn { right: 24px; top: 50px; }
+  .event-content::after { height: 160px; }
+
+  .magazine-wrap { padding: 44px 24px; }  
+
+  /* .campaign-img{ height: 200px; } */
+}
+
+
+@media all and (max-width: 768px) {
+  .main-slide { width: 100%; }
+  .main-slide-wrap { width: 100%; }
+
+  .main-visual-sub { display: none; }
+
+  .cbp-biprev,.cbp-binext { width: 30px; height: 30px; }
+
+  .hot-wrap{ padding: 44px 24px; margin-bottom: 0; }
+  .hot-title { height: auto; }
+  .hot-title>h2{ font-size: 22px; }
+  .hot-title>p{ font-size: 15px; }
+  .hot-content>a{ min-height: 300px; }
+  .hot-img { min-width: 150px; height: 160px; }
+  .hot-img>img{ height: 85%; }
+  .hot-more-btn{
+    font-size: 14px;
+    padding-bottom: 5px;
+    position: relative; /* absolute를 바꿔서 부모를 벗어나 다시 원래자리로! */
+    top: 20px; left: 0;
+    border-bottom: 1px solid #333;
+  }
+
+  .event-wrap { padding: 44px 24px; margin-bottom: 0; }
+  .event-title>h2 { font-size: 22px; }
+  .event-content { display: block; }
+  .event-content>a{ width: 100%; }
+  .event-content::after { display: none; }
+  .event-img{ height: 248px; }
+  .event>ul{ margin-top: 14px; }
+  .e-title { font-size: 17px; }
+  .e-content{ font-size: 14px; }
+  .event-margin { margin-top: 34px; }
+  .event-more-btn{
+    position: relative;
+    left: 0; top: 24px;
+    font-size: 14px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+  }
+
+  .main-banner-wrap { height: 120px; }
+  .main-banner {
+    padding-top: 0px;
+    transform: scale(0.65);
+    max-width: 600px;
+  }
+  .main-banner::before{ top: 27px; left: 25px; } 
+  .slick-track { transform: scale(0.80); margin-top: -10px; }
+  .slick-num{
+    justify-content: space-around;
+    width: 245px;
+  }
+  .main-banner-text{ right: 0; top: 47px; }
+
+  .campaign-wrap { padding: 44px 24px; } 
+  .campaign-title>h3{ font-size: 22px; }
+  .campaign-title>p{ font-size: 15px; }
+  .campaign-box-wrap{ margin-top: 28px; }
+  /* .campaign-img{ height: 150px; }  */
+  .campaign-content01{ font-size: 17px; }
+  .campaign-content02{ font-size: 13px; }
+  .campaign-content03{ font-size: 17px; }
+  .campaign-content04{ font-size: 13px; }
+
+  .magazine-title>h3{ font-size: 26px; }
+  .magazine-title>p { font-size: 15px; }
+  .magazine-box-wrap { display: block;  margin-top: 0; }
+  .magazine-content { margin-top: 0; }
+  .magazine-box { padding: 24px 0; }
+  
+  .magazine-img { height: 248px; } 
+
+  .magazine-content01 { font-size: 17px; margin-top: 15px; }
+  .magazine-content02{ margin-top: 8px; }
+  .magazine-content03{ font-size: 14px; margin-top: 20px; }
+  .magazine-more-btn{
+    position: relative;
+    left: 0; top: 24px;
+    font-size: 14px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+  }
+}
+
+/* slick banner background image */
+@media all and (max-width: 610px) {
+  .main-banner-text{ right: -30px; }
+  /* .campaign-img{ height: 100px; }  */
+}
+@media all and (max-width: 570px) {
+  .main-banner-text{ right: -130px; }
+  .cbp-biprev,.cbp-binext { width: 20px; height: 20px; }
+}
+
+
+/* keyframes */
+
+ 
