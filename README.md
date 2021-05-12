@@ -6,7 +6,7 @@
 큐브미 홈페이지를 클론 코딩한 반응형 포트폴리오 사이트입니다.  
 
 ## 🖱 작업 툴
-HTML, CSS, JAVASCRIPT, jQuery
+HTML, CSS, jQuery
 
 ## 🖱 [cubeme 홈페이지 (www.cubeme.co.kr)](https://www.cubeme.co.kr/main.do)
 
