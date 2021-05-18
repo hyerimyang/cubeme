@@ -1,6 +1,6 @@
 # 📌 CUBE ME Clone Coding (2020)
 
-## 📎 url : [CUBE ME Clone Coding](http://did3296.dothome.co.kr/cubeme/)  
+# 📎 url : [CUBE ME Clone Coding](http://did3296.dothome.co.kr/cubeme/)  
 
 ## ✏ 프로젝트 소개
 큐브미 홈페이지를 클론 코딩한 반응형 포트폴리오 사이트입니다.   
